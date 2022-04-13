@@ -1,0 +1,164 @@
+/* Ignore following classes */
+
+
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+
+
+  .fifteenv{
+    height: 15%;
+  }
+
+  .thvert{
+    height: 40%;
+  }
+ 
+
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 0px;
+    top: 70px;
+    background-color: transparent;
+  }
+  
+  .gr_str {
+    height: 11%;
+  }
+
+  .box {
+    position: relative;
+    top: -300px;
+    width: 166px;
+    height: 166px;
+    z-index: 0;
+
+  }
+
+  .bar1 {
+    position: relative;
+    top: 0px;
+    left: 66px;
+    height: 166px;
+    width: 20%;
+    z-index: 1;
+
+  }
+
+  .bar2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: -100px;
+    left: 0px;
+    height: 20%;
+    width: 166px;
+    z-index: 2;
+
+  }
+
+
+
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+
+  .darkred {
+    background-color: darkred;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+
+  .darkblue {
+    background-color: darkblue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }s
